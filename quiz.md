@@ -113,7 +113,7 @@ An AZ can be composed of multiple data centers at a single location (separate bu
 
 #### In order to use CloudWatch Alarms to monitor Billing information, what two things must you do?
 
-* Create a Billing Alarm
+* *Create a Billing Alarm*
 
 - Create an AWS Budget.
 AWS Budget likely uses Billing Alarms underneath but they are managed by AWS. The question is about using a Billing Alarm directly.
@@ -121,7 +121,7 @@ AWS Budget likely uses Billing Alarms underneath but they are managed by AWS. Th
 - Enable Cost and Usage Reports.
 Cost and Usage Reports does not relate to Billing Alarms
 
-* Enable Billing Alerts.
+* *Enable Billing Alerts*.
 
 (Before you can create an alarm for your estimated charges, you must enable billing alerts, so that you can monitor your estimated AWS charges and create an alarm using billing metric data. After you enable billing alerts, you can't disable data collection, but you can delete any billing alarms that you created.
 
@@ -146,7 +146,7 @@ If you create a billing alarm at a time when your charges have already exceeded 
 
 (There is no such service)
 
-* AWS Artifact
+* *AWS Artifact*
 
 (AWS Artifact is your go-to, central resource for compliance-related information that matters to you. It provides on-demand access to AWS’ security and compliance reports and select online agreements. Reports available in AWS Artifact include our Service Organization Control (SOC) reports, Payment Card Industry (PCI) reports, and certifications from accreditation bodies across geographies and compliance verticals that validate the implementation and operating effectiveness of AWS security controls. Agreements available in AWS Artifact include the Business Associate Addendum (BAA) and the Nondisclosure Agreement (NDA).)
 
@@ -175,7 +175,7 @@ https://aws.amazon.com/inspector/
 (SELECTED
 Provides full access to AWS services and resources.)
 
- * PowerUserAccess
+  *PowerUserAccess*
 
 Provides full access to AWS services and resources, but does not allow management of Users and groups.
 
@@ -203,7 +203,7 @@ DNS stands from Domain Name Service. AWS does not have a service by this name.)
 
 (This is not true, AWS Route53 can be used to purchase domain names.)
 
-* Amazon Route53
+  *Amazon Route53*
 
 (Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. You can use Route 53 to perform three main functions in any combination: domain registration, DNS routing, and health checking.)
 
@@ -225,7 +225,7 @@ SELECTED
 
 (You can launch WordPress from CodeStar. It's not as easy as LightSail and does not handle domain registry as well. This sill requires developer knowledge. AWS CodeStar generally launches AWS Elastic Beanstalk environments.)
 
-* Amazon LightSail
+  *Amazon LightSail*
 
 (Lighsail an easy-to-use UI to launch common workloads that you might found on providers like Godaddy or HostGator. You can easily launch WordPress, Joomla, Magento and more... You can also register a custom domain through LightSail
 
@@ -249,7 +249,7 @@ https://aws.amazon.com/lightsail/
 
 - Reserved
 
-* Spot
+  *Spot*
 
 (Spot Instances is Ec2 compute that you can bid to use at a discount. Spot instances can be interrupted at any time for priority customers.
 
@@ -263,27 +263,27 @@ https://aws.amazon.com/ec2/spot/?cards.sort-by=item.additionalFields.startDateTi
 
 #### What functionality would provide this security?
 
-* Server-Side Encryption
+*Server-Side Encryption*
 
 (Server-side encryption protects data at rest. Amazon S3 encrypts each object with a unique key. As an additional safeguard, it encrypts the key itself with a key that it rotates regularly. Amazon S3 server-side encryption uses one of the strongest block ciphers available to encrypt your data, 256-bit Advanced Encryption Standard (AES-256).)
 
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingServerSideEncryption.html
 
-Client-Side Encryption
+- Client-Side Encryption
 
-SELECTED
-Client-Side Encryption is the action of encrypting data before sending it to S3. This is for encryption in transit.
+
+(Client-Side Encryption is the action of encrypting data before sending it to S3. This is for encryption in transit.)
 
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingClientSideEncryption.html
 
-Presigned URLs
+- Presigned URLs
 
-Presigned URLs allow you to generate temporary URLs to access private files.
+(Presigned URLs allow you to generate temporary URLs to access private files.)
 
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html
 
-Infrequent Access
+- Infrequent Access
 
-S3 Infrequent Access is an access tier that can reduce the cost of storage but is not applicable to security.
+(S3 Infrequent Access is an access tier that can reduce the cost of storage but is not applicable to security.)
 
 https://aws.amazon.com/s3/storage-classes/
