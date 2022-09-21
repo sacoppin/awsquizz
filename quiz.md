@@ -289,3 +289,68 @@ https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.ht
 https://aws.amazon.com/s3/storage-classes/
 
 
+#### Which AWS security services allow you to apply a set of security controls?
+
+AWS Security Hub.
+
+#### Which AWS service is used to calculate the Total Cost of Ownership?
+
+AWS Pricing Calculator
+
+#### A developer wants to gain remote access to an EC2 Instance running Linux without the need of managing a key pair.
+#### What EC2 feature will meet this requirement?
+Sessions Manager
+
+#### An AWS customer believes that one of their accounts has been comprised and it has resources running compute workloads performing illegal activities.
+
+#### What action should the AWS customer take?
+	
+Contact abuse@amazonaws.com
+
+#### Which AWS Managed Job Function provides full access to AWS services and resources, but does not allow management of Users and groups?
+
+	
+PowerUserAccess
+
+#### A company needs a dedicated connection from their on-premise data center to their AWS Cloud VPC.
+
+#### Which AWS service will meet this requirement?
+
+AWS Direct Connect
+
+#### Which AWS billing services are capable of forecasting cost and usage?
+AWS Cost Explorer
+
+#### A company has an EC2 instance running and suddenly the server was terminated. It's suspected that a junior developer may have terminated this instance by mistake.
+
+#### Which AWS service will help determining who was responsible?
+CloudTrail
+
+#### What actions within an AWS Account can only be performed by an AWS Account root user?
+
+Create an Account
+Updating Billing Information
+
+#### What are three key factors from the twelve-factor app pattern methodology that play a role in designing for failure?
+
+
+Logs, Disposability, Dev/prod parity
+
+#### Which of the following are examples of Capital Expenses (CAPEX)?
+
+- Network Costs -
+
+
+- Datacenter Costs -
+
+- IT Personnel. 
+
+
+#### A Canadian company needs to meet regulatory compliance where the data must reside within Canada. Their CIO has experience with maintaining and trusting on-premise infrastructure because it provides a guarantee of Data sovereignty. However, they would like to use an AWS service to take care of this for them.
+
+#### Which AWS service provides a guarantee of Data sovereignty?
+
+AWS Outposts
+
+
+

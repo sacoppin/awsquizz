@@ -61,3 +61,53 @@ Macie automatically and continually evaluates all of your S3 buckets and alerts 
  is not a single point of failure.
 
 An AZ can be composed of multiple data centers at a single location (separate building per data center) Within a data center, hardware is physically isolated from each other in the case of a disaster. So, for example, if one room catches fire, the other rooms will not be affected.
+
+**secu**
+The exam guide outline lists the following benifits of AWS Cloud - Security
+- Reliability
+- High Availability
+- Elasticity
+- Agility
+- Pay-as-you go pricing
+- Scalability
+- Global Reach
+- Economy of scale
+
+**AWS Security Hub**
+	
+AWS Security Hub consumes, aggregates, and analyzes security findings from various supported AWS and third-party products.
+
+Security Hub provides controls for the following standards.
+
+- CIS AWS Foundations
+- Payment Card Industry Data Security Standard (PCI DSS)
+- AWS Foundational Security Best Practices
+These are basically managed AWS Config Conformance packs since the controls are just AWS Config Rules.
+
+**Sessions Manager**
+	
+Sessions Manager allows you to access an EC2 instance to a Linux virtual without the need of SSH key pairs.
+
+AWS has many ways to connect to an EC2 instance but this is the recommended method.
+
+**Contact abuse@amazonaws.com** 
+	
+If you suspect that AWS resources are used for abusive purposes, contact the AWS Trust & Safety team using the Report Amazon AWS abuse form, or by contacting abuse@amazonaws.com. Provide all the necessary information, including logs in plaintext, email headers, and so on, when you submit your request.
+
+**PowerUserAccess** 	
+Provides full access to AWS services and resources, but does not allow management of Users and groups.
+
+**AWS Direct Connect**
+AWS Direct Connect is a cloud service solution that makes it easy to establish a dedicated network connection from your premises to AWS. Using AWS Direct Connect, you create a private connection between AWS and your data center, office, or colocation environment. This can increase bandwidth throughput and provide a more consistent network experience than internet-based connections.
+
+**AWS Cost Explorer**	
+AWS Cost Explorer can forecast cost and usage with granular detail. AWS Cost Explorer is useful for speculative reporting.
+
+**CloudTrail** 	
+CloudTrail logs who made what calls to services via console or through the API. CloudTrail will tell us which user account terminated the EC2 instance.
+
+**AWS Outposts** AWS Outposts is a fully managed service that offers the same AWS infrastructure, AWS services, APIs, and tools to virtually any datacenter, co-location space, or on-premises facility for a truly consistent hybrid experience.
+
+AWS Outposts can guarantee Data sovereignty because the data will be running physical servers within your own on-premise environment.
+
+Another way to apply Data sovereignty is through IAM policies, AWS Organization Service Control Policies, and Permission Boundaries. But there is always a chance of misconfiguration.
