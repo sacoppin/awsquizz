@@ -364,3 +364,28 @@ AWS SQS
 
 
 
+#### You want to monitor the CPU utilization of an EC2 resource in AWS. Which of the below services can help in this regard
+AWS Cloudwatch
+
+#### There is a requirement to host a set of servers in the Cloud for three months. Which of the following launch types for AWS EC2 instances would be the most cost-effective?
+On-Demand
+
+#### AWS provides a storage option known as Amazon S3 Glacier.
+#### What is this AWS service designed for? (Select 2)
+- Infrequently accessed data
+- Data archives
+
+#### Which of the following options of AWS RDS allows for AWS to failover to a secondary database in case the primary one fails?
+AWS Multi-AZ
+
+#### In order to predict the cost of moving resources from on-premise to the cloud, which of the following can be used?
+AWS Pricing Calculator
+
+#### You are exploring what services AWS has off-hand. You have a large number of data sets that need to be processed. Which of the following services can help fulfil this requirement.
+EMR
+
+#### What are the four levels of AWS Premium Support?
+Basic, Startup, Business, Enterprise
+
+#### What AWS service has built-in DDoS mitigation?
+Cloudfront
