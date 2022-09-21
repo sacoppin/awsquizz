@@ -111,3 +111,9 @@ CloudTrail logs who made what calls to services via console or through the API. 
 AWS Outposts can guarantee Data sovereignty because the data will be running physical servers within your own on-premise environment.
 
 Another way to apply Data sovereignty is through IAM policies, AWS Organization Service Control Policies, and Permission Boundaries. But there is always a chance of misconfiguration.
+
+**Amazon Route 53** Rouet53 is a domain name system service by AWS. When a disaster does occur, it can be easy to switch to secondary sites using the Route53 service.
+
+Amazon Route 53 is a highly available and scalable cloud-Domain Name System (DNS)-web service. It is designed to give developers and businesses an extremely reliable and cost-effective way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other. Amazon Route 53 is fully compliant with IPv6 as well.
+
+**AWS SQS** Amazon Simple Queue Service (Amazon SQS) offers a reliable, highly-scalable hosted queue for storing messages as they travel between applications or microservices. It moves data between distributed application components and helps you decouple these components

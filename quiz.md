@@ -352,5 +352,15 @@ Logs, Disposability, Dev/prod parity
 
 AWS Outposts
 
+#### Which of the following service is most useful when a Disaster Recovery method is triggered in AWS?
+Amazon Route 53
+
+#### Which of the following storage options provides the option of Lifecycle policies that can be used to move objects to archive storage?
+
+Amazon S3
+
+#### Your company is planning to host resources in the AWS Cloud. They want to use services which can be used to decouple resources hosted on the cloud. Which of the following services can help fulfil this requirement
+AWS SQS
+
 
 
